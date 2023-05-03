@@ -1,0 +1,16 @@
+@import '../node_modules/@angular/material/theming';
+@use '~@angular/material' as mat;
+
+// Define a custom theme with black and yellow colors
+$custom-theme: mat.define-theme((
+  color: (
+    primary: #000000,
+    accent: #ffcc00,
+  )
+));
+
+// Include the custom theme in the Angular Material theming system
+@include mat.core();
+
+// Override the default theme with the custom theme
+@include mat.theme($custom-theme);

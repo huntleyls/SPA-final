@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;
+  background:#cdcba2;
+}
+body { margin: 0; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;}
